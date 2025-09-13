@@ -1,6 +1,6 @@
 # 🚫 Death’s Status Dashboard
 
-> *“Building apps that just work.”*  
+> *“Building apps and websites that just work.”*  
 > HTML | CSS | JavaScript | Node.js | REST APIs
 
 A clean, dark-themed personal status dashboard showcasing live project statuses, recent activity, and what I’m currently building — inspired by [zedruc.net](https://zedruc.net).
@@ -10,8 +10,6 @@ A clean, dark-themed personal status dashboard showcasing live project statuses,
 ## 🌐 Live Demo
 
 [Live Demo](https://deathstatus.vercel.app/)
-
-> Replace the link above with your deployed URL (e.g., GitHub Pages or Vercel).
 
 ---
 
