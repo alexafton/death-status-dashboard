@@ -9,7 +9,7 @@ A clean, dark-themed personal status dashboard showcasing live project statuses,
 
 ## 🌐 Live Demo
 
-[![Live Demo](https://deathstatus.vercel.app/)
+[Live Demo](https://deathstatus.vercel.app/)
 
 > Replace the link above with your deployed URL (e.g., GitHub Pages or Vercel).
 
