@@ -58,7 +58,7 @@ If you’d like to improve the design or add features (like real-time uptime che
 ## ❤️ Built By
 
 **Death** — Full-stack developer focused on clean architecture and performance.
-🔗 [[Your Twitter/X Handle](https://x.com/notdeath_m)]
+🔗 [[X](https://x.com/notdeath_m)]
 
 > *“Code that lasts longer than the hype.”*
 
