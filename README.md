@@ -9,7 +9,7 @@ A clean, dark-themed personal status dashboard showcasing live project statuses,
 
 ## 🌐 Live Demo
 
-[![Live Demo](https://img.shields.io/badge/Status-Dashboard-blue?logo=vercel)](https://yourusername.github.io/death-status-dashboard)
+[![Live Demo](https://deathstatus.vercel.app/)
 
 > Replace the link above with your deployed URL (e.g., GitHub Pages or Vercel).
 
