@@ -11,7 +11,7 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 
-[View Live](#) • [About](#about) • [Features](#features) • [Tech Stack](#tech-stack)
+[View Live](https://notdeath.vercel.app/) • [About](#about) • [Features](#features) • [Tech Stack](#tech-stack)
 
 </div>
 
