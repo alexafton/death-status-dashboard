@@ -7,6 +7,7 @@
     <meta name="keywords" content="Death, Developer, Portfolio, GitHub, Projects">
     <title>Death's Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!-- For icons -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script> <!-- EmailJS for sending emails -->
     <style>
         /* CSS Styles */
         body {
@@ -201,6 +202,16 @@
         #contact button:hover {
             background-color: #cc0000;
         }
+        #form-message {
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+        .success {
+            color: #00ff00;
+        }
+        .error {
+            color: #ff0000;
+        }
         footer {
             text-align: center;
             padding: 20px;
@@ -289,19 +300,20 @@
     
     <section id="contact">
         <h2>Contact Me</h2>
-        <form action="#" method="post"> <!-- Placeholder; add backend if needed -->
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
+        <form id="contact-form">
+            <input type="text" name="from_name" placeholder="Your Name" required>
+            <input type="email" name="from_email" placeholder="Your Email" required>
             <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
             <button type="submit">Send Message</button>
         </form>
+        <div id="form-message"></div>
     </section>
     
     <footer>
         <p>&copy; 2023 Death. All rights reserved.</p>
         <a href="mailto:notdeath@duck.com"><i class="fas fa-envelope"></i> Email</a>
         <a href="https://github.com/alexafton" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-        <a href="#" download="resume.pdf"><i class="fas fa-download"></i> Download Resume</a> <!-- Replace # with actual PDF link -->
+        <a href="https://x.com/notdeath_m" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
     </footer>
     
     <script>
@@ -375,6 +387,29 @@
                 reposContainer.innerHTML = '<p>Failed to load projects. Check console for details.</p>';
                 console.error('Error fetching repos:', error);
             });
+
+        // EmailJS Form Submission
+        (function() {
+            emailjs.init('YOUR_PUBLIC_KEY'); // Replace with your EmailJS Public Key
+        })();
+
+        const form = document.getElementById('contact-form');
+        const messageDiv = document.getElementById('form-message');
+
+        form.addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+
+            emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this) // Replace with your Service ID and Template ID
+                .then(() => {
+                    messageDiv.className = 'success';
+                    messageDiv.textContent = 'Message sent successfully!';
+                    form.reset(); // Clear the form
+                }, (error) => {
+                    messageDiv.className = 'error';
+                    messageDiv.textContent = 'Failed to send message. Please try again.';
+                    console.error('EmailJS error:', error);
+                });
+        });
     </script>
 </body>
 </html>
