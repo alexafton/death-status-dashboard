@@ -56,15 +56,11 @@ This is my **personal engineering status page** — a clean, modern interface th
 ## 🖼️ Screenshots
 
 ### Desktop View
-![Desktop Dashboard](https://via.placeholder.com/800x500/0a0a0a/00ff00?text=Desktop+View)
-
+Coming Soon...
 ### Mobile View
-<p align="center">
-  <img src="https://via.placeholder.com/300x600/0a0a0a/00ff00?text=Mobile+View" alt="Mobile Dashboard" width="300"/>
-</p>
-
+Coming Soon...
 ### Project Status Section
-![Project Status](https://via.placeholder.com/800x300/0a0a0a/00ff00?text=Project+Status+Cards)
+Coming Soon...
 
 ---
 
@@ -92,8 +88,11 @@ This project intentionally avoids frameworks to demonstrate:
 
 ```
 death-status-dashboard/
-├── LICENSE             # MIT LICENSE
 ├── index.html          # Main HTML structure
+├── styles.css          # All styles and animations
+├── script.js           # Dynamic project rendering
+├── assets/             # Images, icons, media
+│   └── screenshots/    # Dashboard screenshots
 └── README.md           # You are here!
 ```
 
@@ -168,7 +167,6 @@ Breakpoints ensure perfect display on all devices:
 - 🚫 **No Downloads** - This project is **not meant to be downloaded or run locally**
 - 🚫 **No Contributions** - This repository does **not accept pull requests or contributions**
 - 🚫 **No Forks** - Please do not fork or copy this repository
-- 🚫 **No Issues** - Issues are disabled
 
 ### What You Can Do:
 
@@ -176,6 +174,8 @@ Breakpoints ensure perfect display on all devices:
 - ✅ Browse the code to see implementation techniques
 - ✅ Learn from the structure and approach
 - ✅ Get inspired for your own projects
+- ✅ **Report bugs or issues** - Found something broken? [Open an issue](https://github.com/alexafton/death-status-dashboard/issues)
+- ✅ **Share feedback** - Suggestions and thoughts are welcome via Issues
 
 **This code is my personal work and is not available for use, modification, or distribution.**
 
@@ -185,11 +185,10 @@ Breakpoints ensure perfect display on all devices:
 
 Potential features I may add:
 
-- [ ] Real-time uptime monitoring integration
-- [ ] GitHub API integration for automatic commit updates
+- [✔️] GitHub API integration for automatic commit updates
 - [ ] Blog section for development thoughts
 - [ ] Contact form with backend integration
-- [ ] Dark/Light theme toggle
+- [✔️] Dark/Light theme toggle
 - [ ] Project filtering by technology
 - [ ] Analytics dashboard
 
