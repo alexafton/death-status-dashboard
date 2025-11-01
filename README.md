@@ -92,11 +92,8 @@ This project intentionally avoids frameworks to demonstrate:
 
 ```
 death-status-dashboard/
+├── LICENSE             # MIT LICENSE
 ├── index.html          # Main HTML structure
-├── styles.css          # All styles and animations
-├── script.js           # Dynamic project rendering
-├── assets/             # Images, icons, media
-│   └── screenshots/    # Dashboard screenshots
 └── README.md           # You are here!
 ```
 
